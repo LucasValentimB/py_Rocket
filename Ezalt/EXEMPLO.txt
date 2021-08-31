@@ -1,0 +1,74 @@
+Como usar o programam Ezalt:
+
+Como foi cosntruído em cima da planilha Ezalt, ambos possuem a mesma função. A proposta da cosntrução em Python é a integração de planilhas e a facilidade de uso das mesmas.
+
+Após chamar o programa, o módulo Ezalt começará com os input de dados. Sendo eles: Título do foguete, Impulso do motor, Impulso total do motor, Massa do propelante, Massa morta do foguete, diâmetro do foguete e coeficiente de arrasto.
+
+Em seguida o programa fará os cálculos e trará como output: tempo de impulso do motor, classificação, massa média de voo, aceleração, altitude de burnout, altitude de pico, tempo para atingir a altitude de pico, velocidade máxima, número de influência de arrasto, os fatores de redução de altitude de pico, tempo de altitude, velocidade máxima e de altitude de burnout.
+
+Após esse output, terá um novo input para calcular a melhor massa. Os inputs são: massa mínima e massa máxima.
+
+O output será a melhor massa para a maior altitude.
+
+Segue um exemplo de como o programa funciona: 
+
+"--Ezalt--
+
+Insira o nome do foguete: Foguete_Exemplo
+
+Insira o Impulso do motor (N): 1368.1
+
+Insira o Impulso Total do motor (N-sec): 2531.9
+
+Insira a Massa do propelente do motor (kg): 2.123
+
+Insira a Massa morta do foguete (kg): 4.2
+
+Insira o diâmetro do foguete (cm): 10
+
+Insira o coeficiente de arrasto (tipicamente entre 0,3 a 0,6): 0.5
+ 
+------------------------
+ 
+Tempo de impulso do motor: t=  1.851  s
+Classificação do motor:  K
+Massa média de voo do foguete: Mra=  5.261  Kg
+Aceleração: a=  250.213  m/s²
+ 
+Ideal -  Sem resistência de arrasto
+ 
+Altitude de burnout:  428.486  m
+Altitude de pico:  11359.650  m
+Tempo para atingir altitude de pico:  49.063  s
+Velocidade máxima:  463.061  m/s
+------------------------
+Fatores de redução de arrasto
+ 
+Número de influência de arrasto:  2552.687
+(Fora do alcance válido!)
+ 
+Fator de redução de altitude de pico:  0.179  m
+Fator de redução de tempo de altitude:  0.303  s
+Fator de redução de velocidade máxima:  0.804  m/s
+Fator de redução de altitude de burnout:  0.888  m
+------------------------
+Predito com arrasto
+ 
+Altitude de pico: Zpico=  2033.678  m
+Tempo para Altitude de pico: tpico=  14.878  s
+Velocidade máxima: vmax=  372.521  m/s
+Altitude de burnout: Zbo=  380.455  m
+ 
+AVISO: Foguete Supersônico. Resultados podem ser inválidos
+------------------------
+Melhor massa
+
+Insira a massa mínima (kg): 0.1
+
+Insira a massa máxima (kg): 1.5
+Melhor massa:  0.404  Kg"
+
+Contatos:
+linkedin: https://www.linkedin.com/in/lucasvalentimb/
+lucasbcamara@gmail.com
+lucas.valentim@ufabc.edu.br
